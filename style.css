@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #151515;
+    color: #eeeeee;
+}
+
+.cabecalho {
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 3px solid #8b0000;
+    text-align: center;
+    background-color: #202020;
+}
+
+.cabecalho h1 {
+    margin: 0 0 10px 0;
+    font-size: 36px;
+}
+
+.cabecalho p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.introducao {
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 2px solid #444;
+    background-color: #202020;
+}
+
+.introducao h2 {
+    margin-top: 0;
+}
+
+.personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #444;
+
+    background-color: #1c1c1c;
+}
+
+.personagem {
+    width: 200px;
+    min-height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #292929;
+}
+
+.personagem h3 {
+    margin: 0 0 8px 0;
+}
+
+.personagem p {
+    margin: 0;
+    color: #bbbbbb;
+}
+
+.personagem-1 {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #8b0000;
+}
+
+.personagem-2 {
+    padding: 12px;
+    margin: 6px;
+    border: 3px dashed #8b0000;
+}
+
+.personagem-3 {
+    padding: 14px;
+    margin: 7px;
+    border: 2px dotted #8b0000;
+}
+
+.personagem-4 {
+    padding: 16px;
+    margin: 8px;
+    border: 3px double #8b0000;
+}
+
+.personagem-5 {
+    padding: 18px;
+    margin: 9px;
+    border: 2px solid #8b0000;
+}
+
+.personagem-6 {
+    padding: 20px;
+    margin: 10px;
+    border: 3px dashed #8b0000;
+}
+
+.personagem-7 {
+    padding: 11px;
+    margin: 11px;
+    border: 2px solid #8b0000;
+}
+
+.personagem-8 {
+    padding: 13px;
+    margin: 12px;
+    border: 3px dotted #8b0000;
+}
+
+.personagem-9 {
+    padding: 15px;
+    margin: 13px;
+    border: 2px double #8b0000;
+}
+
+.personagem-10 {
+    padding: 17px;
+    margin: 14px;
+    border: 3px solid #8b0000;
+}
+
+.personagem-11 {
+    padding: 19px;
+    margin: 15px;
+    border: 2px dashed #8b0000;
+}
+
+.personagem-12 {
+    padding: 21px;
+    margin: 16px;
+    border: 3px solid #8b0000;
+}
+
+.personagem-13 {
+    padding: 10px 20px;
+    margin: 17px;
+    border: 2px dotted #8b0000;
+}
+
+.personagem-14 {
+    padding: 20px 10px;
+    margin: 18px;
+    border: 3px double #8b0000;
+}
+
+.personagem-15 {
+    padding: 8px 18px;
+    margin: 19px;
+    border: 2px solid #8b0000;
+}
+
+.personagem-16 {
+    padding: 18px 8px;
+    margin: 20px;
+    border: 3px dashed #8b0000;
+}
+
+.personagem-17 {
+    padding: 22px;
+    margin: 21px;
+    border: 2px solid #8b0000;
+}
+
+.personagem-18 {
+    padding: 24px;
+    margin: 22px;
+    border: 3px dotted #8b0000;
+}
+
+.personagem-19 {
+    padding: 26px;
+    margin: 23px;
+    border: 2px double #8b0000;
+}
+
+.personagem-20 {
+    padding: 28px;
+    margin: 24px;
+    border: 3px solid #8b0000;
+}
+
+.grupo {
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 3px solid #444;
+    background-color: #202020;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+    gap: 20px;
+    row-gap: 20px;
+    column-gap: 20px;
+
+    padding: 20px;
+    border: 2px solid #555;
+
+    min-height: 250px;
+}
+
+.ficha {
+    min-width: 180px;
+
+    padding: 25px;
+    border: 2px solid #8b0000;
+
+    text-align: center;
+
+    background-color: #292929;
+}
+
+.ficha h3 {
+    margin-top: 0;
+}
+
+.ficha p {
+    margin: 10px 0;
+}
+
+.ficha span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+.ficha-1 {
+    order: 3;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+    align-self: flex-start;
+}
+
+.ficha-2 {
+    order: 1;
+    flex-grow: 2;
+    align-self: center;
+}
+
+.ficha-3 {
+    order: 2;
+    flex: 2 1 180px;
+    align-self: flex-end;
+}
+
+.ficha-4 {
+    order: 4;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #444;
+
+    text-align: center;
+
+    background-color: #202020;
+}
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .personagem {
+        width: 100%;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+}
